@@ -15,6 +15,7 @@ function App() {
   useEffect(() => {
     fetchNews();
   }, []);
+
   return (
     <div className="App">
       <header className="App-header">
